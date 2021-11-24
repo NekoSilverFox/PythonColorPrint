@@ -8,6 +8,6 @@
 # --------------------------------------------
 
 from BackgroundColor import BackgroundColor
-from ForeColor import ForceColor
+from ForeColor import ForeColor
 from ShowType import ShowType
 from FunctionModel import Pycolor

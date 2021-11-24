@@ -7,7 +7,7 @@
 # @Github  ：https://github.com/NekoSilverFox
 # --------------------------------------------
 
-class ForceColor:
+class ForeColor:
     """
     前景色:
         - 30（黑色）BLACK
