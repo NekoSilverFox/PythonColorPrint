@@ -6,12 +6,20 @@
 # @Versions: v0.1
 # @Github  ：https://github.com/NekoSilverFox
 # --------------------------------------------
-
 from ShowType import ShowType
+
 
 class Pycolor:
     @staticmethod
     def color_print(string, fore_color=None, background_color=None, show_type=ShowType.DEFAULT):
+        """ 打印带有颜色及格式的字符串
+
+        :param string: 需要输出的字符串
+        :param fore_color: 字体颜色, 默认无效果
+        :param background_color: 背景色, 默认无效果
+        :param show_type: 显示方式, 默认无效果
+        :return: 无返回值
+        """
         str = Pycolor.get_color_string(string, fore_color, background_color, show_type)
         print(str)
         return
