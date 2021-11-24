@@ -10,6 +10,7 @@ from ShowType import ShowType
 
 
 class Pycolor:
+    """字符串颜色输出及显示的主功能模块"""
     @staticmethod
     def color_print(string, fore_color=None, background_color=None, show_type=ShowType.DEFAULT):
         """ 打印带有颜色及格式的字符串
